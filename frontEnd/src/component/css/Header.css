@@ -1,0 +1,59 @@
+.full{
+    background-color: black;
+   
+    text-decoration: none;
+    width: 100%;
+    
+
+}
+
+.lis ul li{
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 35px;
+    
+    
+
+}
+.lis ul{
+
+width: 100%;
+   
+
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+
+
+.right ul li{
+    display: inline-block;
+    float: right;
+    list-style: none;
+    margin-top: -60px;
+    margin-right: 10px;
+    padding-bottom: 50px;
+    
+   
+   }
+
+.no-decoration1{
+    text-decoration: none;
+    color: rgb(35, 196, 60);
+    padding-right: 20px;
+    font-weight: 800;
+   
+}
+
+.llogo{
+    margin-left: 20px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+}

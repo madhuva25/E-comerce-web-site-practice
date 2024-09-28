@@ -1,0 +1,120 @@
+.foot1 ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+    
+}
+.foot1 h4{
+    margin-top:10px;
+
+}
+.footerbutton{
+ margin-left: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 901px) {
+    .footer3{
+        margin-left: 0px;
+        margin-top: 10px;/* or you can set it to any specific value */
+    }
+}
+
+.footer3 ul li{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footercard{
+    width:300px;
+    margin-top: 10px;
+}
+
+.footerp{
+    width: 60.3%;
+}
+
+@media only screen and (max-width: 400px) {
+    .footercard{
+        width:100px;
+        margin-top: 10px;/* or you can set it to any specific value */
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .footercard{
+        width:150px;
+        margin-top: 10px;/* or you can set it to any specific value */
+    }
+    .footer3{
+     width: 500px;
+     margin-top:20px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .footer2{
+        
+        margin-left: -200px;/* or you can set it to any specific value */
+    }
+    
+}
+
+
+.footer4 ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    
+}
+
+.footer2 a{
+    text-decoration: none;
+    
+}
+
+.footer2 h6{
+    margin-top:20px;
+}
+
+
+.footer4 a {
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .footer4 a{
+        
+        margin-left:50px;/* or you can set it to any specific value */
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+    .footer4 a{
+        
+        
+        margin-left:200px;/* or you can set it to any specific value */
+    }
+}
+
+.bgcl{
+    background-color:rgb(213, 219, 219);
+}
+
+.location{
+    border-radius:20px;
+    width:300px;
+    border:none;
+    margin:10px;
+    background-color:rgb(193, 180, 180);
+}
+
+.fa-solid.fa-location-dot {
+    color: red;
+}

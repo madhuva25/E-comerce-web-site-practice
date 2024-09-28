@@ -1,0 +1,37 @@
+
+.footer-nav {
+    width: 100%;
+    position: fixed; 
+    bottom: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 900px) {
+    .footer-nav{
+        
+        display: none;
+    }
+}
+    
+
+
+

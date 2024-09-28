@@ -1,0 +1,70 @@
+
+.form_container{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10%;
+    margin-bottom: 50%;
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(230, 0, 255);
+}
+.ss{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    
+    
+   
+    
+}
+
+
+.form_container input{
+ padding: 10px;
+ border-radius: 10px;
+ border: none;
+ margin-bottom: 5px;
+
+}
+
+.form_container button{
+ display: inline-block;
+  padding: 5px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+
+
+}
+
+.login button{
+    background-color: rgb(23, 158, 158);
+   }
+
+
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+    .form_container {
+        width: 80%;
+        padding: 5px;
+    }
+    
+    .ss {
+        width: 200px;
+    }
+}
+
+/* For screens larger than 600px and smaller than 1200px */
+@media (min-width: 600px) and (max-width: 1200px) {
+    .form_container {
+        width: 60%;
+        padding: 7px;
+    }
+    
+    .ss {
+        width: 250px;
+    }
+}

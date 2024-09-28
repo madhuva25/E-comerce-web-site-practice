@@ -1,0 +1,61 @@
+.form-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: #dad6d6;
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+.emaill  label{
+ margin-right: 50px;
+}
+
+.passwordl label{
+    margin-right: 20px;
+    
+}
+
+.emaill input{
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px 5px;
+}
+
+.passwordl input{
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px 5px;
+    
+}
+
+.submitl{
+    border-radius: 10px;
+    margin: 10px;
+    color: rgb(216, 231, 226);
+    background-color: rgb(21, 184, 31);
+}
+
+.button:hover{
+    width: 20%;
+    height: 20%;
+    background-color: #fff;
+}
+
+
+
+@media only screen and (min-width: 900px) {
+    .mm1{
+        width:50%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    
+    }
+}

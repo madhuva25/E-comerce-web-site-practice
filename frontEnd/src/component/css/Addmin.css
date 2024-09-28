@@ -1,0 +1,58 @@
+.tabl{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #62a085;
+    border: 1px solid black;
+    border-radius: 10px;
+
+
+}
+
+.tabl tr{
+    border: 1px solid black; 
+    
+}
+
+.tabl th{
+    width:10px;
+    
+padding: 10px;
+}
+
+.tabl td{
+    width:10px;
+    
+padding: 10px;
+}
+h1{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    align-items: center;
+
+    margin-top: 10%;
+    
+}
+
+
+.ord{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(123, 87, 215);
+    color: aliceblue;
+    
+    font-weight: 600;
+    border: none;
+
+}
+
+.rmv{
+    padding: 5px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: red;
+    font-weight: 600;
+    border: none;
+}
